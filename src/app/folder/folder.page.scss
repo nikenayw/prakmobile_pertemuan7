@@ -1,5 +1,15 @@
-ion-menu-button {
-  color: var(--ion-color-primary);
+:root {
+  --ion-color-soft-pink: #f8b6c1; /* Soft pink color */
+  --ion-color-pink: #d81b60; /* Main pink color */
+  --ion-color-gray: #666666; /* Gray color for text */
+}
+
+ion-toolbar[color="soft-pink"] {
+  --background: var(--ion-color-soft-pink);
+}
+
+.inbox-header {
+  background-color: var(--ion-color-soft-pink); /* Set background color for inbox header */
 }
 
 #container {
@@ -14,6 +24,7 @@ ion-menu-button {
 #container strong {
   font-size: 20px;
   line-height: 26px;
+  color: var(--ion-color-pink);
 }
 
 #container p {
@@ -25,4 +36,30 @@ ion-menu-button {
 
 #container a {
   text-decoration: none;
+  color: var(--ion-color-pink);
+  font-weight: bold;
+}
+
+.identity-card {
+  background-color: var(--ion-color-soft-pink); /* Set background color for the card */
+  color: var(--ion-color-gray); /* Set text color to gray */
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-item {
+  --background: transparent; /* Default background */
+  --color: var(--ion-color-gray); /* Default text color */
+}
+
+.message-title {
+  color: var(--ion-color-gray); /* Set text color for message title */
+}
+
+.message-item:hover {
+  --background: var(--ion-color-soft-pink); /* Background on hover */
+  --color: #fff; /* Text color on hover */
 }
