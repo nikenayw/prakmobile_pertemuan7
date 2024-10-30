@@ -1,5 +1,5 @@
 # prakmobile_pertemuan7
-
+![Logout](assets/ionic.png)
 Proses pembuatan halaman di aplikasi Ionic dimulai dengan `ionic start`. Setelah proyek dibuat, langkah berikutnya adalah membuka file, seperti `folder.page.html`, di mana disana dapat menambahkan beberapa konten.
 
 Dalam file HTML ini, dapat ditambahkan komponen UI dari Ionic sesuai kebutuhan, seperti `<ion-header>`, `<ion-toolbar>`, dan `<ion-content>` untuk membangun antarmuka. Untuk menambahkan interaksi, komponen seperti `<ion-button>` atau `<ion-list>` bisa digunakan, dan perlu dihubungkan dengan fungsi yang didefinisikan dalam file TypeScript terkait, seperti `folder.page.ts`. Di file ini, bisa dibuat variabel dan fungsi untuk mengelola data dan logika aplikasi.
