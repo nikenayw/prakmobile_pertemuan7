@@ -1,0 +1,60 @@
+:root {
+  --ion-color-soft-pink: #f8b6c1; /* Soft pink color */
+  --ion-color-pink: #d81b60; /* Main pink color */
+  --ion-color-gray: #666666; /* Gray color for text */
+}
+
+ion-toolbar[color="soft-pink"] {
+  --background: var(--ion-color-soft-pink);
+}
+
+.inbox-header {
+  background-color: var(--ion-color-soft-pink); /* Set background color for inbox header */
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--ion-color-pink);
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+  color: var(--ion-color-pink);
+  font-weight: bold;
+}
+
+.identity-card {
+  background-color: var(--ion-color-soft-pink); /* Set background color for the card */
+  color: var(--ion-color-gray); /* Set text color to gray */
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-item {
+  --background: transparent; /* Default background */
+  --color: var(--ion-color-gray); /* Default text color */
+}
+
+.message-title {
+  color: var(--ion-color-gray); /* Set text color for message title */
+}
